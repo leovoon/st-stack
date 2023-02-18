@@ -88,7 +88,7 @@
 		<span> Setup </span>
 	</a>
 
-	<footer class="fixed bottom-0 py-4 text-sm">
+	<footer class="py-4 text-sm">
 		<a href="https://github.com/leovoon/" class="inline-block">
 			<div class="flex items-center">
 				<IconBrandGithub size={30} stroke={1} />
