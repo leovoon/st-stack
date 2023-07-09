@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { t } from '$lib/trpc/client';
-	import { LL } from '$lib/i18n/i18n-svelte';
-	import { IconBrandGithub, IconLink } from '@tabler/icons-svelte';
 	import { fade } from 'svelte/transition';
+	import SvelteLogo from '~icons/vscode-icons/file-type-svelte'
+	import { i } from '@inlang/sdk-js'
 
 	const client = t($page);
 	let hello = client.greeting.sayHi.createQuery('from tRPC', {
@@ -40,8 +40,8 @@
 		<a href="https://www.prisma.io/docs/concepts/components/prisma-client/crud">
 			<li>prisma</li>
 		</a>
-		<a href="https://github.com/ivanhofer/typesafe-i18n">
-			<li>typesafe-i18n</li>
+		<a href="https://inlang.com/documentation/sdk/sveltekit">
+			<li>i18n - inlang</li>
 		</a>
 		<a href="https://github.com/artiebits/svelte-seo">
 			<li>svelte-seo</li>
@@ -49,8 +49,8 @@
 		<a href="https://zod.dev/">
 			<li>zod</li>
 		</a>
-		<a href="https://github.com/tabler/tabler-icons/tree/master/packages/icons-svelte">
-			<li>tabler-icons</li>
+		<a href="https://github.com/antfu/unplugin-icons">
+			unplugin icon <SvelteLogo/>
 		</a>
 	</ul>
 
@@ -91,13 +91,13 @@
 	<footer class="py-4 text-sm">
 		<a href="https://github.com/leovoon/" class="inline-block">
 			<div class="flex items-center">
-				<IconBrandGithub size={30} stroke={1} />
+				
 				<span> by </span>
 			</div>
 			<span
 				class="relative mx-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-orange-400 hover:before:bg-orange-600"
 			>
-				<span class="relative text-white"> {$LL.AUTHOR()} </span>
+				<span class="relative text-white"> {i("author")} </span>
 			</span>
 		</a>
 	</footer>

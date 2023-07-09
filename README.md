@@ -4,14 +4,14 @@ opinionated sveltekit starter
 
 - [sveltekit](https://kit.svelte.dev/), TypeScript + playwright + vitest
 - [tailwindcss](https://tailwindcss.com/docs/adding-custom-styles#customizing-your-theme) with [sort plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
-- [svelte-headlessui](https://github.com/CaptainCodeman/svelte-headlessui)
 - [tRPC-sveltekit](https://icflorescu.github.io/trpc-sveltekit/page-server-data)
 - [tRPC-svelte-query-adapter](https://github.com/vishalbalaji/trpc-svelte-query-adapter) experimental
 - [zod](https://zod.dev/)
-- [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n)
+- [i18n - inlang](https://inlang.com/documentation/sdk/sveltekit)
 - [prisma](https://www.prisma.io/docs/concepts/components/prisma-client/crud)
 - [tabler-icons](https://github.com/tabler/tabler-icons/tree/master/packages/icons-svelte)
 - [svelte-seo](https://github.com/artiebits/svelte-seo)
+- [unplugin icons](https://github.com/antfu/unplugin-icons)
 - sitemap.xml
 
 ## Setup
