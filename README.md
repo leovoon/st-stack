@@ -9,7 +9,6 @@ opinionated sveltekit starter
 - [zod](https://zod.dev/)
 - [i18n - inlang](https://inlang.com/documentation/sdk/sveltekit)
 - [prisma](https://www.prisma.io/docs/concepts/components/prisma-client/crud)
-- [tabler-icons](https://github.com/tabler/tabler-icons/tree/master/packages/icons-svelte)
 - [svelte-seo](https://github.com/artiebits/svelte-seo)
 - [unplugin icons](https://github.com/antfu/unplugin-icons)
 - sitemap.xml
